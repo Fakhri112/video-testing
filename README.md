@@ -1,5 +1,31 @@
-# Vue 3 + TypeScript + Vite
+# Video Player App
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A minimalistic video player application built with **Vue 3** and **Tailwind CSS**, featuring **Plyr.io** for a smooth video playback experience.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Technologies Used
+
+- **Vue 3**: Frontend framework for building the app.
+- **Tailwind CSS**: For styling and a responsive design.
+- **Plyr.io**: The video player library used for enhanced playback controls.
+
+## How It Works
+
+1. Paste a video URL in the input field.
+2. The video will start playing automatically.
+3. That's it—plain and simple!
+
+## Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/video-player-app.git
+   cd video-player-app
+   ```
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+3. Run the development server
+   ```bash
+   npm run dev
+   ```
