@@ -1,16 +1,16 @@
 <script setup lang="ts">
-import mediaInfoFactory from "mediainfo.js";
+// import mediaInfoFactory from "mediainfo.js";
+// import Modal from "./Modal.vue";
 import Plyr from "plyr";
 import { ref, watch } from "vue";
-import Modal from "./Modal.vue";
 import { checkURL } from "../utils/function";
 const src = ref("");
 const urlInput = ref("");
-const isModalOpened = ref(false);
-const mediainfodata = ref("");
 const isLoading = ref(false);
-const openModal = () => (isModalOpened.value = true);
-const closeModal = () => (isModalOpened.value = false);
+//const isModalOpened = ref(false);
+// const mediainfodata = ref("");
+// const openModal = () => (isModalOpened.value = true);
+// const closeModal = () => (isModalOpened.value = false);
 
 watch(src, () => {
 	setTimeout(() => {
